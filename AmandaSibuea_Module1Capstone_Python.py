@@ -770,23 +770,6 @@ def sort_book():
     
     display_library(sorted_book_list)
 
-# conditionals function to re-sort the list of books
-def re_sort_books():
-    # ensure that function keeps asking until the user inputs yes or no
-    while True:
-        # prompt user:
-        print("Would you like to re-sort the books?\n")
-        choice = input("Please enter yes or no: ")
-
-        # conditionals
-        if choice == "yes":
-            sort_book()
-        elif choice == "no":
-            print("Back to main menu")
-            main_menu()
-        else:
-            print(f"'{choice}' is an invalid input. Please try again.")
-
 # function for the asc desc option
 def sorting_order_options(prompts, choice):
     # prompt user
