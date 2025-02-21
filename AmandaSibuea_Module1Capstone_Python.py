@@ -455,6 +455,7 @@ def borrow_book():
                         ### if there are no copies left, set next available date
                         if no_of_copies == 1:
                             book_list[key]["next_available_date"] = "30 March 2025"
+                            print("Please return the book by 30 March 2025")
 
                     else:
                         print(f"'{title_borrow}' is not currently availble")
