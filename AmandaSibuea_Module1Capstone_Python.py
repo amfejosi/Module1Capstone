@@ -136,7 +136,7 @@ def menu_design():
     print("2. Add a book to the system")
     print("3. Search and borrow a book")
     print("4. Edit book details")
-    print("5. Delete a book to the system")
+    print("5. Delete a book from the system")
     print("6. Sort books")
     print("7. Exit \n")
 
