@@ -837,3 +837,6 @@ def main_programme():
             print("You've chosen to close the programme")
             print("Exit Successful")
             break
+
+        else:
+            print("Invalid option. Please enter a number between 1 and 7.")
