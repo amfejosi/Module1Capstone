@@ -23,7 +23,7 @@ book_list[1] = {
 }
 
 book_list[2] = {
-    "title": "Pride and Prejudice",
+    "title": "Pride And Prejudice",
     "author": "Jane Austen",
     "year": 1913,
     "genre": "Romance",
@@ -32,7 +32,7 @@ book_list[2] = {
 }
 
 book_list[3] = {
-    "title": "Sense and Sensibility",
+    "title": "Sense And Sensibility",
     "author": "Jane Austen",
     "year": 1811,
     "genre": "Romance",
@@ -840,3 +840,5 @@ def main_programme():
 
         else:
             print("Invalid option. Please enter a number between 1 and 7.")
+
+main_programme()
